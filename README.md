@@ -26,30 +26,42 @@ This is a Laravel Docker boilerplate repo
 
 5. Docker build
 
-   ``` sudo docker-compose up -d --build ```
+   ``` 
+   sudo docker-compose up -d --build 
+   ```
 -d flag used to run docker in the background.
 
 6. Create Laravel project 
 
-    ``` sudo docker-compose run --rm composer create project laravel/laravel . ```
+    ``` 
+    sudo docker-compose run --rm composer create project laravel/laravel . 
+    ```
 
 This will create a Laravel 9 project inside src directory. Specify the Laravel version if needed.
 
 7. Install composer packages 
 
-    ``` sudo docker-compose run --rm composer create require YOUR_PACKAGE ```
+    ``` 
+    sudo docker-compose run --rm composer create require YOUR_PACKAGE 
+    ```
 
 8. Install npm 
 
-    ``` sudo docker-compose run --rm npm install ```
+    ``` 
+    sudo docker-compose run --rm npm install 
+    ```
 
 9. Run artisan commands 
 
-    ``` sudo docker-compose run --rm artisan YOUR_COMMAND ```
+    ``` 
+    sudo docker-compose run --rm artisan YOUR_COMMAND 
+    ```
 
 10. Bring down Docker 
 
-    ``` sudo docker-compose down ```
+    ``` 
+    sudo docker-compose down
+    ```
 
 11. Show Docker service list
 
