@@ -10,44 +10,52 @@ This is a Laravel Docker boilerplate repo
 - **[COMPOSER](https://hub.docker.com/_/composer)**
 - **[NODE - node:current-alpine](https://hub.docker.com/_/composer)**
 
-Changes the ports in the `docker-compose.yml` file if needed. 
+
+
+
 
 ## Setup Instructions (Linux/Ubuntu)
 
 1. Clone the project from the repository to your local machine.
 
 2. Open the project in your preferred code editor or IDE with a terminal and continue the below steps.
+   
+3. Changes the ports in the `docker-compose.yml` file if needed. 
 
-3. Docker build
+4. Create 2 folders `mysql` and `src` after cloning the project.
+
+5. Docker build
 
    ``` sudo docker-compose up -d --build ```
 -d flag used to run docker in the background.
 
-4. Create Laravel project 
+6. Create Laravel project 
 
     ``` sudo docker-compose run --rm composer create project laravel/laravel . ```
 
 This will create a Laravel 9 project inside src directory. Specify the Laravel version if needed.
 
-5. Install composer packages 
+7. Install composer packages 
 
     ``` sudo docker-compose run --rm composer create require YOUR_PACKAGE ```
 
-6. Install npm 
+8. Install npm 
 
     ``` sudo docker-compose run --rm npm install ```
 
-7. Run artisan commands 
+9. Run artisan commands 
 
     ``` sudo docker-compose run --rm artisan YOUR_COMMAND ```
 
-8. Bring down Docker 
+10. Bring down Docker 
 
     ``` sudo docker-compose down ```
 
-9. Show Docker service list
+11. Show Docker service list
 
-    ``` sudo docker-compose ps ```
+    ``` 
+    sudo docker-compose ps 
+    ```
 
 #### Other
 
