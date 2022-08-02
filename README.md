@@ -34,7 +34,7 @@ This is a Laravel Docker boilerplate repo
 6. Create Laravel project 
 
     ``` 
-    sudo docker-compose run --rm composer create project laravel/laravel . 
+    sudo docker-compose run --rm composer create-project --prefer-dist laravel/laravel . 
     ```
 
 This will create a Laravel 9 project inside src directory. Specify the Laravel version if needed.
@@ -73,6 +73,8 @@ This will create a Laravel 9 project inside src directory. Specify the Laravel v
 
 If you face any error related to permission denied, check if the folders/files are locked. Run this command on your linux to unlock all the files and folders. 
 
-    ``` sudo chmod o+w FOLDER/* -R```
+    ``` 
+    sudo chmod o+w FOLDER/* -R
+    ```
 
 ## ENJOY! 
