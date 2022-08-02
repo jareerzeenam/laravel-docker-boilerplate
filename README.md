@@ -20,9 +20,11 @@ This is a Laravel Docker boilerplate repo
 
 2. Open the project in your preferred code editor or IDE with a terminal and continue the below steps.
    
-3. Changes the ports in the `docker-compose.yml` file if needed. 
+3. Changes the ports in the `docker-compose.yml` and `nginx/default.conf` file if needed. 
 
 4. Create 2 folders `mysql` and `src` after cloning the project.
+
+Test : Create a `src/public` folder and add a `index.php` file to test if it is indexing the correct file.  
 
 5. Docker build
 
