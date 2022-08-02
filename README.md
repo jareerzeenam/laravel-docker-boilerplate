@@ -24,7 +24,7 @@ This is a Laravel Docker boilerplate repo
 
 4. Create 2 folders `mysql` and `src` after cloning the project.
 
-Test : Create a `src/public` folder and add a `index.php` file to test if it is indexing the correct file.  
+Test : Create a `src/public` folder and add a `index.php` file to test if it is indexing the correct file (delete `public` folder before installing laravel project).  
 
 5. Docker build
 
