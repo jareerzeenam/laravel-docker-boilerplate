@@ -44,7 +44,7 @@ This will create a Laravel 9 project inside src directory. Specify the Laravel v
 7. Install composer packages 
 
     ``` 
-    sudo docker-compose run --rm composer create require YOUR_PACKAGE 
+    sudo docker-compose run --rm composer require YOUR_PACKAGE 
     ```
 
 8. Install npm 
